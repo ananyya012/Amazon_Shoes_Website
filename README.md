@@ -1,5 +1,6 @@
 
 # Amazon Shoes Website
+img src = "Amazon-Shoes-Website/images/icons/Screenshot 2024-07-24 123635.png"
 
 Welcome to the Amazon Shoes Website repository! This project is a mock e-commerce site focused on selling shoes. 
 
