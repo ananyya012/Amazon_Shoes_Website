@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Website</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+
+<body>
+    <nav class="shadow-lg container-fluid bg-dark text-light ">
+        <div class="row py-2">
+            <div class="col-xl-2 col-md-2 col-sm-6 col-6 order-xl-1 order-md-1 order-sm-1 order-1 d-flex">
+                <span class="toggle-icon"><span class="sidebar-open-icon h3">≡</span></span>
+                <img src="./images/icons/logo2.png" class="logo" alt="">
+            </div>
+            <div
+                class="col-xl-2 col-md-2 col-sm-12 col-12 order-xl-2 order-md-2 order-sm-4 order-4 d-flex  flex-xl-column flex-md-column flex-sm-row flex-row text-center justify-content-center">
+                <div> <img src="images/icons/loc.png" alt=""> delivered to Ananya </div>
+                <div>Santiniketan,Bolpur </div>
+            </div>
+            <div
+                class="col-xl-5 col-md-5 col-sm-12 col-12 order-xl-3 order-md-3 order-sm-3 order-3 d-flex justify-content-center">
+                <input type="input" oninput="updateSearch()" placeholder="Search Your Shoes" class="w-75 py-2 px-2">
+
+            </div>
+            <div
+                class="col-xl-3 col-md-3 col-sm-6 col-6 d-flex justify-content-around order-xl-4 order-md-4 order-sm-2 order-2 text-center">
+                <div>Ananya <img src="images/icons/user-icon.png" alt=""></div>
+                <a href="cart.html" class="text-decoration-none text-white">cart<img src="images/icons/icons8-cart-100.png" class="img-fluid" width="26px" alt=""> 
+                <span class="cart-length">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-light toggle-sidebar none">
+        <div class="      
+        row   text-light  ">
+            <div class="col-xl-12 col-md-6 col-sm-10 col-10">
+                <div class=" w-100 bg-dark  ">
+                    <div class="side-close-icon p-3" onclick="closeSide()">
+                        ❌
+                    </div>
+                    <div class="sidebaruserName text-end pe-3  pt-3">
+                         
+                        Your Account <img src="images/icons/user-icon.png" alt="">
+                    </div>
+                    <div class="sidebarlogo h3 fw-light ps-3  py-4">
+                        Browse <br>
+                        Amazon
+                    </div>
+                    <div class="bg-light text-dark shadow-lg h5 d-flex w-100 px-2 py-3 justify-content-between">
+                        <span>Amazon Home</span>
+                        <img src="images/icons/television-icon1.png" width="25px" alt="">
+                    </div>
+                </div>
+
+<ul class="list-unstyled text-dark card py-2 d-flex flex-column gap-3 ps-4">
+
+    <li class="fw-bolder h5"> Trebding</li>
+    <li>Best Seller</li>
+    <li>New Releases</li>
+    <li>Movers & Shakers</li>
+    <li></li>
+</ul>
+<ul class="list-unstyled text-dark card py-2 d-flex flex-column gap-3 ps-4">
+
+    <li class="fw-bolder h5"> Programs & Features</li>
+    <li>Today Deals</li>
+    <li>Amazon Pay</li>
+    <li>Handloom and Handicrafts</li>
+    <li>Try Prime</li>
+    <li>Buy more , Save More</li>
+    <li>Sell on Amazon</li>
+</ul>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <header class="container-fluid    text-light py-2 ">
+        <div class="row">
+            <div class="col-7 d-flex align-items-center align-items-baseline"><span class="h3 pe-3 sidebar-open-icon">
+                ≡
+                </span>
+                <ul class="d-flex gap-5 list-unstyled align-items-center">
+                    <li>Amazon miniTV</li>
+                    <li>Sell</li>
+                    <li>Amazon Gift</li>
+                    <li>Buy Again</li>
+                    <li>Gift Ideas</li>
+
+                </ul>
+            </div>
+            <div class="col-4 d-flex justify-content-between align-content-center">
+                <img src="category image/headerimg.jpg" alt="" class="w-100">
+            </div>
+        </div>
+        </div>
+    </header>
+
+<main class="row">
+    <div class="leftmain col-xl-3 col-md-3 col-sm-11 col-11 bg-light shadow-lg mb-5">
+        <div class="fixed-sidebar mb-5">
+            <h4 class="text-end d-lg-none d-md-none " onclick="closeSideFilter()">Close</h4>
+       <h4 class="bg-dark text-light  text-center mt-2">Filter by Types</h4>
+        <div class="checkboxType d-flex flex-column gap-2 ms-5">
+
+       <!-- <label for="Boots">Boots <input type="checkbox" class="feature-filter" id="Boots" data-features="Boots"></label>
+     -->
+       
+    
+    </div>
+       <h4 class="bg-dark text-light  text-center mt-2">Filter by Tags</h4>
+        <div class="checkboxTag d-flex flex-column gap-2 ms-2">
+
+       <!-- <label for="Boots">Boots <input type="checkbox" class="feature-filter" id="Boots" data-features="Boots"></label>
+     -->
+       
+    
+    </div>
+       <h4 class="bg-dark text-light  text-center mt-2">Filter by Sizes</h4>
+        <div class="checkboxSize d-flex flex-column gap-2 ms-5">
+
+       <!-- <label for="Boots">Boots <input type="checkbox" class="feature-filter" id="Boots" data-features="Boots"></label>
+     -->
+   
+    
+    </div>
+       <h4 class="bg-dark text-light  text-center mt-2">Filter by Colours</h4>
+        <div class="checkboxColor d-flex flex-wrap  gap-2 ms-5">
+
+       <!-- <label for="Boots">Boots <input type="checkbox" class="feature-filter" id="Boots" data-features="Boots"></label>
+     -->
+       
+    
+    </div>
+
+        </div>
+       
+    </div>
+    
+
+    </div>
+    <div class="rightmain col-xl-9 col-md-9 col-sm-12 col-sm-12 ">
+<div class="row category-container justify-content-around">
+    
+</div>
+<div class="row shoes-item-container">
+        
+    
+</div>
+<div class="sidebarfilter row ">
+    <button class="col-12">filter</button>
+    
+    
+   </div>
+   
+    </div>
+</main>
+
+<footer class="container-fluid bg-dark text-white">
+<div class="row">
+   <div class="col-xl-3 py-3 col-md-3 col-sm-6 col-6">
+   <h5>Get to knows Us</h5>
+   <p>About Us</p>
+   <p>Careers</p>
+   <p>Releases</p>
+   <p>Amazon Service</p>
+   </div>
+   <div class="col-xl-3 py-3 col-md-3 col-sm-6 col-6">
+    <h5>Connect with Us</h5>
+   <p>About Us</p>
+   <p>Careers</p>
+   <p>Releases</p>
+   </div>
+   <div class="col-xl-3 py-3 col-md-3 col-sm-6 col-6">
+    <h5>Make Money with Us</h5>
+   <p>Sell on Amazon</p>
+   <p>Sell under Amazon Accelerator</p>
+   <p>Project and Build Your Brand</p>
+   <p>Amazon Global Selling </p>
+   <p>Became an Affiliate</p>
+   <p>Fulfilment by Amazon </p>
+   <p>Advertise Your Products </p>
+   <p>Amazon Pay on Merchants</p>
+   </div>
+   <div class="col-xl-3 py-3 col-md-3 col-sm-6 col-6">
+    <h5>Let Us Help You</h5>
+   <p>Amazon</p>
+   <p>Your Accounts</p>
+   <p>Return Center</p>
+   <p>100% Purchase Protection</p>
+   <p>Amazon App Download</p>
+   <p>Help </p>
+   </div>
+</div>
+</footer>
+
+
+
+
+
+<script src="data/data.js"></script>
+<script src="script/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+/* border: 1px solid red; */
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+width: 100%;
+/* height: 4000px; */
+overflow-x: hidden;
+}
+nav{
+    position: sticky;
+    top: 0;
+    /* z-index: 1; */
+}
+.logo{
+    width: 130px;
+}
+
+
+.toggle-icon{
+    display: none;
+}
+.toggle-sidebar{
+    width: 480px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    overflow-y: scroll;
+    z-index: 1;
+
+}
+header{
+    
+
+    
+}
+.none{
+    display: none;
+}
+
+@media screen and (max-width:770px) {
+    .toggle-icon{
+
+        display: block;
+        }
+        .toggle-sidebar{
+            width: 460px !important;
+        }
+        .leftmain{
+            display: none;
+            position: absolute;
+            top: 130px;
+            left: 0;
+            z-index: 1;
+            /* position: fixed; */
+            
+
+
+        }
+        .sidebarfilter{
+            visibility: visible !important;
+            margin-left:34% !important ;
+
+        }
+        .sidebarfilter>button{
+            background-color:rgb(35, 47, 62);
+            color: aliceblue;
+        }  
+
+        .toggle-sidebar{
+            width: 400px !important;
+        }
+    }
+
+
+
+/* header style */
+header{
+    background-color:  rgb(35, 47, 62);
+}
+@media screen and (max-width:1028px){
+    header{
+        display: none;
+    }
+    .toggle-icon{
+        display: block;
+    }
+   
+}
+
+
+/* category button styling */
+
+.category-container button{
+    border-radius: 50%;
+    width: 20%;
+    border: none;
+    background-color: white;
+    
+}
+.category-container button img{
+    width: 100%;
+}
+
+.selected{
+    color: darkviolet;
+}
+
+
+
+/* shoes item style */
+
+.shoes-font{
+    font-size: 15px;
+}
+.shoes-color{
+    width: 30px; 
+    height: 30px;
+    
+    margin: 5px; 
+    border-radius: 50%;
+    border:1px solid gray;
+}
+.size{
+    margin: 5px; 
+    font-size: 13px;
+
+}
+.shoes-item-container img{
+       
+    height: 200px;
+}
+
+
+/* leftmain checkbox styling start */
+.sidebarfilter{
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    /* z-index: 1; */
+    
+    visibility: hidden;
+}
+.sidebarfilter button{
+    padding: 5px 20px;
+}
+.checkboxColor > div{
+    border: 1px solid rgb(37, 33, 33);
+border-radius: 10%;
+}
+.rightmain{
+    margin-bottom: 200px;
+  /* height: 4500px; */
+}
+.leftmain {
+    position: sticky;
+    top: 130px; /* Adjust as needed */
+    height: calc(100vh - 130px); /* Adjust as needed */
+    overflow-y: auto;
+}
+.cart-length{
+    position: relative;
+    bottom: 10px;
+    right: 3px;
+}
