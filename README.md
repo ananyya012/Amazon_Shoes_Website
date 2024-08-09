@@ -13,7 +13,7 @@ Welcome to the Amazon Shoes Website repository! This project is a mock e-commerc
 - [Contributing](#Contributing)
 - [License](#license)
 - [Contact](#contact)
-
+- 
 ## Features
 
 - User authentication and authorization
