@@ -1,4 +1,3 @@
-
 # Amazon Shoes Website
 <img src = "Amazon-Shoes-Website/images/icons/Screenshot 2024-07-24 123635.png">
 
