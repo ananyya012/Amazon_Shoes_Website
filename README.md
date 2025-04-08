@@ -35,7 +35,7 @@ Welcome to the Amazon Shoes Website repository! This project is a mock e-commerc
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ananyaa012/Amazon-Shoes-Website.git
+   git clone https://github.com/ananyya012/Amazon-Shoes-Website.git
    cd Amazon-Shoes-Website
    ```
 
